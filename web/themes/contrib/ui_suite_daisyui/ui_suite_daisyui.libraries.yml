@@ -1,0 +1,19 @@
+daisyui:
+  remote: https://v5.daisyui.com/
+  license:
+    name: MIT
+    url: https://github.com/saadeghi/daisyui/blob/v5/packages/daisyui/LICENSE
+    gpl-compatible: false
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/daisyui@5:
+        { minified: true }
+      https://cdn.jsdelivr.net/npm/daisyui@5/themes.css:
+        { minified: true }
+  js:
+    https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4: {}
+
+breakout:
+  css:
+    theme:
+      css/breakout/breakout.css: {}

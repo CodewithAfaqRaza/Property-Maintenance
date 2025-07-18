@@ -1,0 +1,12 @@
+core:
+  css:
+    theme:
+      dist/css/app.css: { minified: true }
+      dist/css/themes/dark.css: { minified: true }
+      dist/css/base/base.css: { minified: true }
+      dist/css/themes/property_maintenance.css: { minified: true }
+  dependencies:
+    - ui_suite_daisyui/daisyui
+   
+
+

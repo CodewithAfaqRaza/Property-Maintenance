@@ -1,0 +1,7 @@
+
+# No value because same as plugin ID.
+property_maintenance:
+  label: "property_maintenance"
+  label_context: "color"
+  key: "data-theme"
+  target: html
