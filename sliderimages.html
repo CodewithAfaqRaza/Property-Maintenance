@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tailwind Image Slider</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Optional: Hide scrollbar for cleaner look */
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+    .scrollbar-hide {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;     /* Firefox */
+    }
+  </style>
+</head>
+<body class="bg-gray-100 mx-auto ">
+
+  <div class="max-w-[1920px] w-full ">
+    <h2 class="text-2xl font-bold mb-4 ">Our Services</h2>
+
+    <!-- Slider Container -->
+    <div class="overflow-x-auto whitespace-nowrap 2xl:max-w-[1770px] scrollbar-hide flex gap-5 2xl:ml-[75px] py-24 ml-5">
+      
+      <!-- Card 1 -->
+      <div class="inline-block w-[350px] h-[350px] md:w-4/6 max-w-[570px] flex-shrink-0 rounded-xl overflow-hidden shadow-md bg-white">
+        <img src="images/Frame 48.png" alt="Interior" class="w-full h-full object-cover">
+      </div>
+
+      <!-- Card 2 -->
+      <div class="inline-block w-[350px] h-[350px] md:w-4/6 max-w-[570px]  flex-shrink-0 rounded-xl overflow-hidden shadow-md bg-white">
+        <img src="images/Frame 83 (1).png" alt="House Construction" class="w-full h-full object-cover">
+        
+      </div>
+
+      <!-- Card 3 -->
+      <div class="inline-block w-[350px] h-[350px] md:w-4/6 max-w-[570px]  flex-shrink-0 rounded-xl overflow-hidden shadow-md bg-white">
+        <img src="images/Frame 83.png" alt="Painter" class="w-full h-full object-cover">
+        
+      </div>
+
+      <div class="inline-block w-[350px] h-[350px] md:w-4/6 max-w-[570px] flex-shrink-0 rounded-xl overflow-hidden shadow-md bg-white">
+        <img src="images/Frame 86.png" alt="Painter" class="w-full h-full object-cover">
+      
+      </div>
+
+      <div class="inline-block w-[350px] h-[350px] md:w-4/6 max-w-[570px] flex-shrink-0 rounded-xl overflow-hidden shadow-md bg-white">
+        <img src="images/Frame 83.png" alt="Painter" class="w-full h-full object-cover">
+        
+      </div>
+
+      <div class="inline-block w-[350px] h-[350px] md:w-4/6 max-w-[570px] flex-shrink-0 rounded-xl overflow-hidden shadow-md bg-white">
+        <img src="images/Frame 48.png" alt="Painter" class="w-full h-full object-cover">
+
+      </div>
+
+      <!-- Add more cards if needed -->
+      
+    </div>
+    </div>
+    
+  <form class="w-full bg-[#ECEBE1] px-30 grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 items-start px-32 py-24">
+    
+    <!-- Headings (spans full width) -->
+    <div class="col-span-4 md:col-span-8 lg:col-span-12 text-center mb-6 flex flex-col gap-8">
+      <h2 class="text-3xl md:text-3xl font-bold text-[#02356C] leading-tight">
+        Stay up to date on the latest outsourcing news.
+      </h2>
+      <span class=" text-lg  md:text-xl font-semibold text-[#003A75]">
+        Subscribe to our newsletter.
+      </span>
+    </div>
+
+    <!-- First Name -->
+    <div class="col-span-4 md:col-span-4 lg:col-span-4 lg:col-start-3 ">
+      <input type="text" placeholder="First name" 
+             class="w-full text-sm placeholder-[#003A75] border border-[#02356C] px-4 py-3 rounded-full outline-none" />
+    </div>
+
+    <!-- Last Name -->
+    <div class="col-span-4 md:col-span-4 lg:col-span-4 lg:col-start-7">
+      <input type="text" placeholder="Last name"
+             class="w-full text-sm placeholder-[#003A75] border border-[#02356C] px-4 py-3 rounded-full outline-none" />
+    </div>
+    
+    <!-- Email -->
+    <div class="col-span-4 md:col-span-4 lg:col-span-4 lg:col-start-3">
+      <input type="email" placeholder="Email"
+             class="w-full text-sm  placeholder-[#003A75] border border-[#02356C] px-4 py-3 rounded-full outline-none" />
+    </div>
+
+    <!-- Subscribe Button -->
+    <div class="col-span-4 md:col-span-4 lg:col-span-4 lg:col-start-7">
+      <button class="w-full text-sm bg-[#02356C] text-white px-4 py-3 rounded-full font-semibold">
+        Subscribe
+      </button>
+    </div>
+  </div>
+
+
+      
+  
+
+</body>
+</html>
