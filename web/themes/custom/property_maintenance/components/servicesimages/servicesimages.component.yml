@@ -1,0 +1,8 @@
+name: services images
+description: "our services  are used to group and display content in a way that is easily readable."
+
+slots:
+  imageurl:
+    title: Image url
+    description: "url of the image"
+ 

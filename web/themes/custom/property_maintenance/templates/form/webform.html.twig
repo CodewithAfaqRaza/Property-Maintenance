@@ -1,0 +1,39 @@
+{#
+/**
+ * @file
+ * Theme implementation for a 'webform' element.
+ *
+ * This is an copy of the webform.html.twig theme_wrapper which includes the
+ * 'title_prefix' and 'title_suffix' variables needed for
+ * contextual links to appear.
+ *
+ * Available variables
+ * - attributes: A list of HTML attributes for the wrapper element.
+ * - children: The child elements of the webform.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the main title tag that appears in the template.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the main title tag that appears in the template.
+ *
+ * @see template_preprocess_webform()
+ * @see _webform_form_after_build()
+ *
+ * @ingroup themeable
+ */
+#}
+<!-- Headings (spans full width) -->
+    
+<form class="w-full px-30 grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-4 items-start px-32 py-24">
+  {# {{ title_prefix }} #}
+  <div class="col-span-4 md:col-span-8 lg:col-span-12 text-center mb-6 flex flex-col gap-8">
+      <h2 class="text-3xl md:text-3xl font-bold text-[#02356C] leading-tight">
+        Stay up to date on the latest outsourcing news.
+      </h2>
+      <span class=" text-lg  md:text-xl font-semibold text-[#003A75]">
+        Subscribe to our newsletter.
+      </span>
+    </div>
+  {{ children }}
+  {# {{ title_suffix }} #}
+</form>
+

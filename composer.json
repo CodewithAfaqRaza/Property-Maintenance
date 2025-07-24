@@ -25,6 +25,7 @@
         "drupal/nomarkup": "^1.0",
         "drupal/paragraphs": "^1.19",
         "drupal/ui_suite_daisyui": "^5.0@alpha",
+        "drupal/webform": "^6.2",
         "drush/drush": "^13.6"
     },
     "conflict": {
