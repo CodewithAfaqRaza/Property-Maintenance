@@ -1,0 +1,12 @@
+name: maintenance
+description: maintenance description
+slots:
+  maintitle:
+    title: Main Title
+    description: "The section title for card"
+  imageurl:
+    title: media Image
+    description: "The medis image"
+  link:
+    title: "Link"
+    description: "The links for card"

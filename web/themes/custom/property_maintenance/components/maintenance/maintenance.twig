@@ -1,0 +1,23 @@
+    
+     <div class="relative w-full h-100  md:h-100 bg-cover bg-center"  style="background-image: url({{imageurl}});" >
+  <!-- Overlay -->
+  
+<div class="absolute inset-0 bg-overlay/30"></div>
+  <!-- Centered Content -->
+  <div class="relative z-10 flex flex-col items-center justify-center h-full px-4 text-center text-white">
+    
+    <!-- Heading -->
+    <h2 class=" text-sans text-[clamp(26px,2.2vw+10px,45px)] leading-9 md:leading-10 font-bold   font- text-white lg:leading-12.5 xl:leading-13.5 2xl:leading-[60px]">
+{{maintitle}}
+    </h2>
+
+    <!-- Button -->
+    <button class="mt-9 px-10  py-3.5 bg-primary  text-white text-sm md:mt-10 font-normal rounded-md border-primary flex items-center gap-2 ">
+     {{link}}
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+      </svg>
+    </button>
+
+  </div>
+</div>
